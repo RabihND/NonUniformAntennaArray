@@ -25,7 +25,7 @@
 <div align="center">
 
   <h3 align="center"> Non-Uniform Antenna Array🎲</h3>
-  <p align="center"><img src="./stuff/antenna.gif" width="200"></p>
+  <p align="center"><img src="./stuff/design.gif" width="250"></p>
   <p align="center">
    A Review article using MATLAB
     <br />
