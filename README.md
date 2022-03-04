@@ -55,10 +55,10 @@
 
 ## About The Project
 
-<p align="center"> <img  src="./stuff/mastermind.jpg" width="1000"> </p>  
-<p align="justify"><b>Mastermind</b> is a code-breaking game in which two players compete against each other. The game begins when the first participant, dubbed <b>"The Codemaker"</b>, generates a four-digit (color) code that is hidden. The second participant, dubbed <b>"The Codebreaker"</b> then guesses a code.</p>
+<p align="center"> <img  src="./stuff/antnna_array.jpg" width="1000"> </p>  
+<p align="justify"><b>Antenna arrays</b> have been employed in wireless communications and radars to synthesize beampatterns with the smallest BW and PSLL achievable. When evaluating the performance of different types of arrays, <b>half-power beamwidth (HPBW)</b> and <b>PSLL</b> are the main metrics to consider. <b>Directivity</b>, or the ratio of energy delivered in the intended direction to total energy communicated, is another key performance characteristic. Traditionally, linear arrays with consistent inter-element spacing have been commonly used. ULAs with uniform excitation-current amplitudes or weights have a short BW but a large PSLL.</p>
 
-<p align="justify">The codemaker then evaluates the estimate by handing certain black and white pins to the codebreaker (plus and minus in the paper version). The codebreaker guesses another code based on the evaluation, and the game continues until the codebreaker finds (or fails to locate) the concealed code within the maximum number of <b>tries</b>.
+<p align="justify">We propose a <b>NULA</b> with <b>non-uniform weights</b> in this work. The weights were calculated using a normal window function and the logarithmic function was used for inter-element spacing. A variety of window functions are available in the literature, but only the Bartlett-Hanning window function was employed for this proof of concept.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -75,36 +75,7 @@ Major frameworks/libraries used in this project:
 
 ## Parts
 
-**1. Master Mind Class**
 
-The main MasterMind game Process; it contains:
-
-- **get_random_solution()**: Returns a random "solution" to be the hidden code.
-- **check_guess()**: Returns the nb of "correct" and nb of "misplaced" guess.
-- **get_correct_colors()**: Returns the "correct" colors.
-- **get_misplaced_colors()**: Returns the "misplaced" colors.
-- **is_won()**: Verify that the guess is correct according to the solution.
-
-**2. MainWindowUi Class** (GUI_Window)
-
-The main window of the game designed by Qt; it contains:
-
-- **setupUi()**: The QT codes that generate the main window.
-- **resetButtonClicked()**: That delete the selected colors.
-- **set_thisguesstable()**: connect the colors.
-- **clicked_color()**: Send the selected colors to the Guess table.
-- **clicked_submit()**: After clicking the submit button; its check the guess and return the score to the Scores Table.
-- **show_game_over()**: Show the Game Over Dialog. -**print_score()**: print score in the terminal (NOT GUI).
-
-**3. GameOverWindow Class** (GUI_Window)
-
-The resulting window, which shows the player's loss(+) or victory(-).
-
-- **display_text()**: Return a text with include the result of the game.(Win/Loss)
-
-**4. Splash Screen Class** (GUI_Windows)
-
-> {⌛}
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
