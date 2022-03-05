@@ -42,7 +42,7 @@
   <summary>Table of Contents</summary> 
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#parts">Parts & Results</a></li>
+    <li><a href="#parts--results">Parts & Results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#refenences">Refenences</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -87,8 +87,7 @@ Major frameworks/libraries used in this project:
 <p align="center"> <img  src="./stuff/windows.png" width="500"></p>
 
 - **Problem2:**
-<p align="justify">Second, to clarify the <b>relationship</b> between <b>HPBW, BW, and directivity</b> as we mentioned before we consider a standard 16-element linear array pointed at the broadside.Fist we find the <b>Dolph-Chebychev weightings</b> for sidelobes of -20dB, -30dB, and -40dB.
-After that, we plot the resulting beam pattern and we compute the HPBW. BW, and the directivity.</p>
+<p align="justify">Second, to clarify the <b>relationship</b> between <b>HPBW, BW, and directivity</b> as we mentioned before we consider a standard 16-element linear array pointed at the broadside.Fist we find the <b>Dolph-Chebychev weightings</b> for sidelobes of -20dB, -30dB, and -40dB. After that, we plot the resulting beam pattern and we compute the HPBW. BW, and the directivity.</p>
 <p align="center"> <img  src="./stuff/dolph.png" width="800"></p>
 
 - **Problem3:**
@@ -96,12 +95,12 @@ After that, we plot the resulting beam pattern and we compute the HPBW. BW, and 
 <p align="center"> <img  src="./stuff/iteration.gif" width="500"></p>
 
 **3. SUGGESTED METHOD**
-<p align="justify">The non-uniform distribution of the 16-element linear array was found using a random search approach in the work of an investigator developing a portable radar <sup>[5]</sup>. <b>MATLAB</b> is used to analyze 100,000 random non-uniform distributions using the convex optimization software <b>CVX </b><sup>[6]</sup>, which can take more than 3 hours. But in our case, we just want to explain this approach for this we just show how its work.<p>
+<p align="justify">The non-uniform distribution of the 16-element linear array was found using a random search approach in the work of an investigator developing a portable radar <sup>[5]</sup>. <b>MATLAB</b> is used to analyze 100,000 random non-uniform distributions using the convex optimization software <b>CVX </b><sup>[6]</sup>, which can take more than 3 hours. But in our case, we just want to explain this approach for this we just show how its work.</p>
 
-<p align="center"> <img  src="./stuff/campare4.png" width="500"></p>
+<p align="center"> <img  src="./stuff/campare4.png" width="800"></p>
 <p align="center"><b align="center">Fig.2<b> <i>Results from code [LA_random_spacing.m]</i></p>
 
-<p align="center"> <img  src="./stuff/camapre_pos.png" width="500"></p>
+<p align="center"> <img  src="./stuff/camapre_pos.png" width="800"></p>
 <p align="center"><b align="center"><b>Fig.3</b><i> Distribution of the array elements(related to Fig.2)</i></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -119,7 +118,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Refenences
 🔎
 
-[1] C. A. Balanis, Antenna Theory, and Design. John Wiley&Sons, 1997.
+<p><sup>[1]</sup> C. A. Balanis, Antenna Theory, and Design. John Wiley&Sons, 1997.</p>
 
 [2] H. L. V. Trees, Optimum Array Processing. Wiley, 2002.
 
@@ -129,7 +128,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [5] Z. Peng, P. Nallabolu and C. Li, "Design and Calibration of a Portable 24-GHz 3-D MIMO FMCW Radar with a Non-uniformly Spaced Array and RF Front-End Coexisting on the Same PCB Layer," 2018 IEEE 13th Dallas Circuits and Systems Conference (DCAS), 2018, pp. 1-4, DOI: 10.1109/DCAS.2018.8620117.
 
-[6] M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx
+[6] M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -147,13 +146,8 @@ Rabih ND - [@RabihND](https://github.com/RabihND)
 
 ## Roadmap
 
-- [x] Write the main code-map.
-- [x] Design the GUI window.
-- [x] Write the MasterMain Core Functions.
-- [x] Design the GameOver window.
-- [x] <a href="https://github.com/RabihND/AP2021-2022-Final/releases/latest"><strong>Build the .EXE Release</strong></a>
-- [ ] Splash screen
-- [ ] Build APK release.
+- [x] Fist Commit
+- [ ]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
