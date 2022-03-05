@@ -128,7 +128,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <sup>[5]</sup> Z. Peng, P. Nallabolu and C. Li, "Design and Calibration of a Portable 24-GHz 3-D MIMO FMCW Radar with a Non-uniformly Spaced Array and RF Front-End Coexisting on the Same PCB Layer," 2018 IEEE 13th Dallas Circuits and Systems Conference (DCAS), 2018, pp. 1-4, DOI: 10.1109/DCAS.2018.8620117.
 
-<sup>[6]</sup>M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx</p>
+<sup>[6]</sup> M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -147,7 +147,7 @@ Rabih ND - [@RabihND](https://github.com/RabihND)
 ## Roadmap
 
 - [x] Fist Commit
-- [  ] ...
+- [   ] ...
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
