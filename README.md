@@ -98,10 +98,10 @@ Major frameworks/libraries used in this project:
 <p align="justify">The non-uniform distribution of the 16-element linear array was found using a random search approach in the work of an investigator developing a portable radar <sup>[5]</sup>. <b>MATLAB</b> is used to analyze 100,000 random non-uniform distributions using the convex optimization software <b>CVX </b><sup>[6]</sup>, which can take more than 3 hours. But in our case, we just want to explain this approach for this we just show how its work.</p>
 
 <p align="center"> <img  src="./stuff/campare4.png" width="800"></p>
-<p align="center"><b align="center">Fig.2<b> <i>Results from code [LA_random_spacing.m]</i></p>
+<p align="center"><b>Fig.2</b> <i>Results from code [LA_random_spacing.m]</i></p>
 
 <p align="center"> <img  src="./stuff/camapre_pos.png" width="800"></p>
-<p align="center"><b align="center"><b>Fig.3</b><i> Distribution of the array elements(related to Fig.2)</i></p>
+<p align="center"><b>Fig.3</b><i> Distribution of the array elements(related to Fig.2)</i></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -118,17 +118,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Refenences
 🔎
 
-<p><sup>[1]</sup> C. A. Balanis, Antenna Theory, and Design. John Wiley&Sons, 1997.</p>
+<p><sup>[1]</sup> C. A. Balanis, Antenna Theory, and Design. John Wiley&Sons, 1997.
 
-[2] H. L. V. Trees, Optimum Array Processing. Wiley, 2002.
+<sup>[2]</sup> H. L. V. Trees, Optimum Array Processing. Wiley, 2002.
 
-[3] K. L. Bell, H. L . Van Trees, and L. J . Griffiths, Adaptive beampattern control using quadratic constraints for circular array STAP. 8th Annual Workshop on Adaptive Sensor Array Processing ( ASAP 2000), M.I.T. Lincoln Laboratory, Lexington, Massachusetts, pp. 43-48, March 2000.
+<sup>[3]</sup> K. L. Bell, H. L . Van Trees, and L. J . Griffiths, Adaptive beampattern control using quadratic constraints for circular array STAP. 8th Annual Workshop on Adaptive Sensor Array Processing ( ASAP 2000), M.I.T. Lincoln Laboratory, Lexington, Massachusetts, pp. 43-48, March 2000.
 
-[4] C. A. Olen and R. T. Compton, Jr. A numerical pattern synthesis algorithm for arrays. IEEE Trans. Antennas Propag., vol.AP-38, pp. 1666- 1676, October 1990.
+<sup>[4]</sup> C. A. Olen and R. T. Compton, Jr. A numerical pattern synthesis algorithm for arrays. IEEE Trans. Antennas Propag., vol.AP-38, pp. 1666- 1676, October 1990.
 
-[5] Z. Peng, P. Nallabolu and C. Li, "Design and Calibration of a Portable 24-GHz 3-D MIMO FMCW Radar with a Non-uniformly Spaced Array and RF Front-End Coexisting on the Same PCB Layer," 2018 IEEE 13th Dallas Circuits and Systems Conference (DCAS), 2018, pp. 1-4, DOI: 10.1109/DCAS.2018.8620117.
+<sup>[5]</sup> Z. Peng, P. Nallabolu and C. Li, "Design and Calibration of a Portable 24-GHz 3-D MIMO FMCW Radar with a Non-uniformly Spaced Array and RF Front-End Coexisting on the Same PCB Layer," 2018 IEEE 13th Dallas Circuits and Systems Conference (DCAS), 2018, pp. 1-4, DOI: 10.1109/DCAS.2018.8620117.
 
-[6] M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx</p>
+<sup>[6]</sup>M. Grant, and S. Boyd "CVX: Matlab software for disciplined convex programming. http://cvxr.com/cvx</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
