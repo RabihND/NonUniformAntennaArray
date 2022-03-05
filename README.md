@@ -85,6 +85,13 @@ Major frameworks/libraries used in this project:
 
 - **Problem1:** 
 <p align="justify">First, regarding the window that is used for weighting we can see this resulting figure that describes the Beam patterns for various windows for N = 16;</p>
+<p align="center"> <img  src="./stuff/windows.png" width="500"></p>
+
+- **Problem2:**
+<p align="justify">Second, to clarify the <b>relationship</b> between <b>HPBW, BW, and directivity</b> as we mentioned before we consider a standard 16-element linear array pointed at the broadside.Fist we find the <b>Dolph-Chebychev weightings</b> for sidelobes of -20dB, -30dB, and -40dB.
+After that, we plot the resulting beam pattern and we compute the HPBW. BW, and the directivity.</p>
+<p align="center"> <img  src="./stuff/dolph.png" width="500"></p>
+
 
 
 
