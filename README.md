@@ -11,8 +11,8 @@
         <img src="https://img.shields.io/github/stars/RabihND/NonUniformAntennaArray?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
     <a alt="Visitors">
         <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=RabihND/NonUniformAntennaArray?color=14adfa&logo=Android&style=for-the-badge" /></a>
-    <a href="https://github.com/RabihND/NonUniformAntennaArray/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/RabihND/NonUniformAntennaArray?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
+    <a href="https://github.com/RabihND/NonUniformAntennaArray/blob/59d7175101db39b30c72860a1ccc5bfc96d8c5a7/LICENSE">
+        <img src="https://img.shields.io/github/license/RabihND/NonUniformAntennaArray?logo=letsencrypt&style=for-the-badge" alt="License"></a>
     
 </p>
 
