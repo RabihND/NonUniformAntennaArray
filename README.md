@@ -83,6 +83,9 @@ Major frameworks/libraries used in this project:
 <p align="center"> <img  src="./stuff/NLUA.png" width="500"></p>
 <p align="center"><b><i>Fig.1</b> Geometry and notations used for non-uniform linear array.</i></p> 
 
+- **Problem1:** 
+<p align="justify">First, regarding the window that is used for weighting we can see this resulting figure that describes the Beam patterns for various windows for N = 16;</p>
+
 
 
 
