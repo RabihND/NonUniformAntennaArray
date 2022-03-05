@@ -90,9 +90,11 @@ Major frameworks/libraries used in this project:
 - **Problem2:**
 <p align="justify">Second, to clarify the <b>relationship</b> between <b>HPBW, BW, and directivity</b> as we mentioned before we consider a standard 16-element linear array pointed at the broadside.Fist we find the <b>Dolph-Chebychev weightings</b> for sidelobes of -20dB, -30dB, and -40dB.
 After that, we plot the resulting beam pattern and we compute the HPBW. BW, and the directivity.</p>
-<p align="center"> <img  src="./stuff/dolph.png" width="500"></p>
+<p align="center"> <img  src="./stuff/dolph.png" width="800"></p>
 
-
+- **Problem3:**
+<p align="justify">By using the technique introduced in the reference <b>“Optimum Array Processing”</b> by <i>Harry L. Van Trees </i><sup>[2]</sup>  we design a beam pattern that maximizes the directivity subject to a -35 dB constraint of the sidelobe; considering a standard linear array with 16 elements. After that, we compare the resulting BW with that of a 16 element SLA using DolphChebychev weighting.</p>
+<p align="center"> <video  src="./stuff/iteration.mp4" width="800"></p>
 
 
 
