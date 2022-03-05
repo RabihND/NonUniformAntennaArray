@@ -80,8 +80,9 @@ Major frameworks/libraries used in this project:
  - What is the array Directivity?
 
 **2. MODEL OF THE SYSTEM**
-<p align="center"> <img  src="./stuff/NLUA.png" width="500"> </p> 
-<figcaption align="center"><b><i>Fig.1 Geometry and notations used for non-uniform linear array.</i></b></figcaption>
+<p align="center"> <img  src="./stuff/NLUA.png" width="500"> 
+<figcaption align="center"><b><i>Fig.1 Geometry and notations used for non-uniform linear array.</i></b></figcaption></p> 
+
 
 
 
