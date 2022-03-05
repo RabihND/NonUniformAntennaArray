@@ -3,10 +3,6 @@
 <h1 align="center"> EW course project  </h1>
 
 <p align="center">
-    <a alt="Version">
-        <img src="https://img.shields.io/github/v/release/RabihND/NonUniformAntennaArray?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge" /></a>
-    <a  alt="Downloads">
-        <img src="https://img.shields.io/github/downloads/RabihND/NonUniformAntennaArray/total?logo=App%20Store&logoColor=white&style=for-the-badge" /></a>
     <a href="https://github.com/RabihND/NonUniformAntennaArray/graphs/contributors" alt="Contributers">
         <img src="https://img.shields.io/github/contributors/RabihND/NonUniformAntennaArray?color=6fd671&logo=WhiteSource&style=for-the-badge" /></a>
     <a href="https://github.com/RabihND/NonUniformAntennaArray//network/members" alt="Forks">
@@ -15,7 +11,7 @@
         <img src="https://img.shields.io/github/stars/RabihND/NonUniformAntennaArray?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
     <a alt="Visitors">
         <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=RabihND/NonUniformAntennaArray?color=14adfa&logo=Android&style=for-the-badge" /></a>
-    <a href="https://github.com/RabihND/NonUniformAntennaArray/master/LICENSE.txt">
+    <a href="https://github.com/RabihND/NonUniformAntennaArray/blob/main/LICENSE">
         <img src="https://img.shields.io/github/license/RabihND/NonUniformAntennaArray?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
     
 </p>
